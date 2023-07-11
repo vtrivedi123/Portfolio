@@ -1,9 +1,8 @@
 # My Portfolio Website 
-## (https://vtrivedi123.github.io/portfolio)
+>https://vtrivedi123.github.io/portfolio
 
-**Name:** Vishal Trivedi
-
-**Email:** vishalb.trivedi123@gmail.com
+Name: Vishal Trivedi\
+Email: vishalb.trivedi123@gmail.com
 
 My Github account is used to showcase personal projects that I have and will make in the future, while this repository is for my portfolio website which I made using HTML and CSS.
 
