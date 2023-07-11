@@ -1,0 +1,396 @@
+body {
+    font-size: 12px;
+    background: url(Assets/background.jpeg) no-repeat center fixed;
+    background-size: cover;
+    padding: 10px;
+    text-align: left;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    overflow-y: scroll;
+}
+.list_headings {
+    color: #0E0603;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.subheader {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}
+.container {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    text-align: center;
+}
+.container2 {
+    padding: 1em;
+    justify-content: left;
+    text-align: left;
+}
+.btn {
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 45px;
+    max-width: 160px;
+    text-decoration: none;
+    margin: 10px;
+    width: 100%;
+    border: 3px solid #FFFFFF;
+    background-color: #94B1B3;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.btn:hover {
+    text-decoration: underline;
+}
+.dlbtn {
+    color: #000000;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 45px;
+    max-width: 160px;
+    text-decoration: none;
+    margin: 10px;
+    width: 100%;
+    border: 3px solid #FFFFFF;
+    background-color: #EBA79C;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    border-spacing: 3px 3px;
+    padding: 5px;
+    font-size: 14px;
+}
+.hometxt {
+    height: auto;
+    width: 80vw;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: #FBD5C8;
+    border: thin solid #FFFFFF;
+    border-spacing: 3px 03px;
+    right: auto;
+    padding: 5px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 11px;
+}
+.certlist {
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: #FBD5C8;
+    border: thin solid #FFFFFF;
+    border-spacing: 3px 03px;
+    height: auto;
+    width: 80vw;
+    padding: 5px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 11px;
+    list-style-position: inside;
+}
+.qoipos {
+    background-color: #EBA79C;
+    border: thin solid #FFFFFF;
+    line-height: 15px;
+    padding: 5px;
+    height: auto;
+    text-align: center;
+}
+.lastupdated {
+    text-align: center;
+    background-color: #EBA79C;
+    border: thin solid #FFFFFF;
+    padding: 2px;
+    text-align: center;
+}
+.percontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.pertxt1 {
+    background-color: #FBD5C8;
+    border: thin solid #FFFFFF;
+    padding: 5px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 11px;
+    display: inline-block;
+    margin: 25px 10px;
+}
+
+.pertxt2 {
+    background-color: #FBD5C8;
+    border: thin solid #FFFFFF;
+    padding: 5px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 11px;
+    display: inline-block;
+    margin: 25px 10px;
+}
+.perpic1 {
+    max-width: 100%;
+    height: 31vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perpic1 img {
+    max-width: 254px;
+    height: auto;
+}
+.perpic2 {
+    max-width: 100%;
+    height: 26vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perpic2 img {
+    max-width: 426px;
+    height: auto;
+}
+
+
+input[type=submit] {
+    background-color: #93b0b3;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.acatxt1 {
+    background-color: #FBD5C8;
+    border: thin solid #FFFFFF;
+    border-spacing: 3px 3px;
+    padding: 5px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 11px;
+    display: inline-block;
+    margin: 25px 10px;
+}
+
+.acatxt2 {
+    background-color: #FBD5C8;
+    box-shadow: 0px 0px;
+    border: thin solid #FFFFFF;
+    padding: 5px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 11px;
+    display: inline-block;
+    margin: 25px 10px;
+}
+
+.acapic1 {
+    box-shadow: 0px 0px;
+    opacity: 0.7;
+    max-width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acapic1 img {
+    max-width: 399px;
+    height: auto;
+}
+.contact_name {
+    left: 60px;
+    position: relative;
+    bottom: 40px;
+}
+
+.contact_email {
+    left: 60px;
+    position: relative;
+    bottom: 50px;
+}
+
+.contact_msg {
+    left: 60px;
+    position: relative;
+    bottom: 60px;
+}
+
+.contact_submit {
+    left: 60px;
+    position: relative;
+    bottom: 50px;
+}
+
+.conentire {
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    top: 230px;
+}
+
+.name_text {
+    position: relative;
+    bottom: 13px;
+    color: #0E0603;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.mail_text {
+    position: relative;
+    bottom: 20px;
+    color: #0E0603;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.msg_text {
+    position: relative;
+    bottom: 30px;
+    color: #0E0603;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+input[type=email], input[type=text] {
+    background-color: #93b0b3;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    margin: 4px 2px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 11px;
+}
+
+textarea {
+    background-color: #93b0b3;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    margin: 4px 2px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    resize: none;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 11px;
+    cursor: auto;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: #586465;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e8bcb4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #eaa89c;
+}
+
+textarea::-webkit-scrollbar {
+    width: 9px;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: #586465;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #e8bcb4;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #eaa89c;
+}
+
+@media (min-width: 1025px) {
+    .hometxt {
+        width: 700px;
+    }
+
+    .certlist {
+        width: 400px;
+    }
+
+    .qoipos {
+        bottom: -2px;
+        right: 10px;
+        width: 261px;
+        height: auto;
+        position:fixed;
+    }
+
+    .lastupdated {
+        position: fixed;
+        bottom: -2px;
+        right: 600px;
+        width: 241px;
+    }
+    .perpic2 {
+        left: 552px;
+        position: relative;
+        width: 426px;
+        bottom: 435px;
+    }
+    .perpic1 {
+        width: 239px;
+        position: relative;
+        left: 207px;
+        height: auto;
+        right: auto;
+        margin: 10px;
+        bottom: 60px;
+    }
+    .pertxt2 {
+        width: 400px;
+        height: auto;
+        position: relative;
+        left: 551px;
+        bottom: 436px;
+        right: auto;
+    }
+    .pertxt1 {
+        position: relative;
+        width: 400px;
+        left: 120px;
+        bottom: 80px;
+        height: auto;
+        right: auto;
+    }
+    .acatxt1 {
+        width: 300px;
+        position: relative;
+        left: 454px;
+        bottom: 220px;
+        position: relative;
+        height: auto;
+        right: auto;
+    }
+
+    .acatxt2 {
+        position: relative;
+        bottom: 27px;
+        height: auto;
+        width: 700px;
+        right: auto;
+    }
+
+    .acapic1 {
+        width: 399px;
+        height: auto;
+        left: 50px;
+        position: relative;
+        bottom: 17px;
+        right: auto;
+    }
+}
