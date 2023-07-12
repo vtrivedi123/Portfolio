@@ -1,4 +1,4 @@
-# Vishal's Portfolio
+# Portfolio
 >Vishal Trivedi\
 >`✉` vishalb.trivedi123@gmail.com
 
