@@ -1,8 +1,8 @@
 # My Portfolio
-https://vtrivedi123.github.io/portfolio/
-<br>
+https://vtrivedi123.github.io/portfolio/<br>
+
 </br>
-> **Vishal Trivedi**
+Vishal Trivedi
 
 `✉` vishalb.trivedi123@gmail.com
 <br>
