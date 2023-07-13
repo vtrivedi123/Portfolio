@@ -1,5 +1,5 @@
 # Portfolio
-> Contains information about me and what I have done
+> Contains information about me and some of what I have done
 
 My **Github** account is used to **showcase** projects that I have and will make in the future, while this **repository** is for my **portfolio** website which I made using **HTML** and **CSS**.<br>
 </br>
