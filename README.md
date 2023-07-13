@@ -1,6 +1,7 @@
 # Portfolio
-> ‎‏‏‎ ‎`𐀪` Vishal Trivedi\
-> `✉` vishalb.trivedi123@gmail.com
+> **‎‏‏Vishal Trivedi** (name)
+
+> vishalb.trivedi123@gmail.com (email)
 
 My **Github** account is used to **showcase** personal projects that I have and will make in the future, while this **repository** is for my **portfolio** website which I made using **HTML** and **CSS**.<br>
 </br>
